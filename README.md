@@ -11,7 +11,6 @@ A minimal yet effective `tmux.conf` for enhanced terminal productivity. This con
 - **Dynamic Status Line:** Displays session, window, host, load average, and a toggleable clock.
 - **Mouse Support:** Click to select panes and windows.
 - **Pane Synchronization:** Toggle synchronized input across all panes.
-- **UTF-8 and 256-color Support:** Ensures proper character and color rendering.
 
 ## Installation
 
@@ -47,6 +46,7 @@ Press <kbd>Prefix</kbd> + <kbd>r</kbd> (default prefix is <kbd>Ctrl+b</kbd>).
 - **Split Pane Vertically:** `<Prefix> + -`
 - **Navigate Panes:** `<Prefix> + h/j/k/l`
 - **Resize Panes:** `<Prefix> + Shift + Arrow Key`
+- **Toggle Status Line position:** `<Prefix> + l`
 - **Toggle Clock in Status Line:** `<Prefix> + t`
 - **Toggle Pane Synchronization:** `<Prefix> + S`
 - **Mouse Actions:** Click to select panes/windows
