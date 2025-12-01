@@ -1,6 +1,6 @@
 # This nix file is for testing tmux version 2.7 from a specific commit.
 # It fetches the source code from the tmux GitHub repository.
-# run `nix-build tmux27.nix` to build tmux 2.7.
+# run `nix-shell -p $(nix-build tmux27.nix)` to build tmux 2.7.
 with import <nixpkgs> {};
 tmux.overrideAttrs (old: {
   version = "2.7";

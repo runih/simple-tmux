@@ -35,6 +35,12 @@ mkdir -p ~/.config/tmux
 curl -o ~/.config/tmux/tmux.conf https://raw.githubusercontent.com/runih/simple-tmux/main/tmux.conf
 ```
 
+### Option 3: Download Only the 2.7 version file `tmux27.conf` File to the home directory
+
+```sh
+curl -o ~/.tmux.conf https://raw.githubusercontent.com/runih/simple-tmux/main/tmux27.conf
+```
+
 ### Reload tmux config (inside tmux):
 
 Press <kbd>Prefix</kbd> + <kbd>r</kbd> (default prefix is <kbd>Ctrl+b</kbd>).
@@ -46,7 +52,7 @@ Press <kbd>Prefix</kbd> + <kbd>r</kbd> (default prefix is <kbd>Ctrl+b</kbd>).
 - **Split Pane Vertically:** `<Prefix> + -`
 - **Navigate Panes:** `<Prefix> + h/j/k/l`
 - **Resize Panes:** `<Prefix> + Shift + Arrow Key`
-- **Toggle Status Line position:** `<Prefix> + l`
+- **Toggle Status Line position:** `<Prefix> + A`
 - **Toggle Clock in Status Line:** `<Prefix> + t`
 - **Toggle Pane Synchronization:** `<Prefix> + S`
 - **Mouse Actions:** Click to select panes/windows
